@@ -26,10 +26,11 @@ export default function Component() {
   }
   return <>
     <Navbar />
+
     <div className="flex flex-col justify-center gap-6 items-center text-center my-14">
 
       <div >Indian AntiQue QuesT</div>
-      <image className="rounded-2xl width[80vw]" src="/1.jpg" alt="" />
+      <Image src="/1.jpg" alt="Antique Item" width={800} height={600} priority />
     </div>
     <hr />
 
@@ -38,17 +39,17 @@ export default function Component() {
       {/* container 1 */}
       <div className="innerContainer1">
 
-        <div className=" widthfull m-6">
-          <image className="rounded-lg object-fill width-full height-80" src="/2.jpg" alt="" />
+        <div className=" width-full m-6">
+          <Image src="/2.jpg" alt="Antique Item" width={800} height={600} priority />
           <h1 className="text-gray-600">Antique Name</h1>
           <h1 className="text-gray-600">Description</h1>
           <p className="text-xs">&apos Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, mollitia? &apos</p>
           <div className="flex justify-around">
-          <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold cursor-pointer" onClick={() => route.push('/buy')}>Buy</button>
-          <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold cursor-pointer" onClick={() => route.push('/about')}>About</button>
-           
+            <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold cursor-pointer" onClick={() => route.push('/buy')}>Buy</button>
+            <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold cursor-pointer" onClick={() => route.push('/about')}>About</button>
 
-          
+
+
           </div>
 
         </div>
@@ -56,86 +57,87 @@ export default function Component() {
       {/* container 2 */}
       <div className="innerContainer2">
 
-        <div className=" widthfull m-6">
-          <image className="rounded-lg width-full height-80 object-fill" src="/3.jpeg" alt="" />
+        <div className=" width-full m-6">
+          <Image src="/3.jpg" alt="Antique Item" width={800} height={600} priority />
           <h1 className="text-gray-600">Antique Name</h1>
           <h1 className="text-gray-600">Description</h1>
           <p className="text-xs">&apos Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, mollitia? &apos</p>
           <div className="flex justify-around">
-          <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold">Buy</button>
-          <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold" onClick={() => route.push('/about')}>About</button>
+            <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold">Buy</button>
+            <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold" onClick={() => route.push('/about')}>About</button>
 
           </div>
         </div>
 
-      </div>
-      {/* container 3 */}
-       <div className="innerContainer3">
+      </div >
 
-        <div className=" widthfull m-6">
-          <image className="rounded-lg width-full height-80 object-fill" src="/4.jpg" alt="" />
+      {/* container 3 */}
+      < div className="innerContainer3" >
+
+        <div className=" width-full m-6">
+          <Image src="/4.jpg" alt="Antique Item" width={800} height={600} priority />
           <h1 className="text-gray-600">Antique Name</h1>
-          <h1 className="text-gray-600">Description</h1> 
+          <h1 className="text-gray-600">Description</h1>
           <p className="text-xs">&apos Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, mollitia? &apos </p>
           <div className="flex justify-around">
-          <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold">Buy</button>
-          <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold" onClick={() => route.push('/about')}>About</button>
+            <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold">Buy</button>
+            <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold" onClick={() => route.push('/about')}>About</button>
 
           </div>
         </div>
 
-      </div>
+      </div >
       {/* container 4 */}
-       <div className="innerContainer4">
+      < div className="innerContainer4" >
 
-        <div className=" widthfull m-6">
-          <image className="rounded-lg width-full height-80 object-fill" src="/5.webp" alt="" />
+        <div className=" width-full m-6">
+          <Image src="/5.jpg" alt="Antique Item" width={800} height={600} priority />
           <h1 className="text-gray-600">Antique Name</h1>
           <h1 className="text-gray-600">Description</h1>
           <p className="text-xs">&apos Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, mollitia? &apos</p>
           <div className="flex justify-around">
-          <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold">Buy</button>
-          <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold" onClick={() => route.push('/about')}>About</button>
+            <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold">Buy</button>
+            <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold" onClick={() => route.push('/about')}>About</button>
 
           </div>
         </div>
 
-      </div>
+      </div >
       {/* container 5 */}
-       <div className="innerContainer5">
+      < div className="innerContainer5" >
 
-        <div className=" widthfull m-6">
-          <image className="rounded-lg width-full height-80 object-fill" src="/2.jpg" alt="" />
+        <div className=" width-full m-6">
+          <Image src="/6.jpg" alt="Antique Item" width={800} height={600} priority />
           <h1 className="text-gray-600">Antique Name</h1>
           <h1 className="text-gray-600">Description</h1>
           <p className="text-xs">&apos Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, mollitia? &apos</p>
           <div className="flex justify-around">
-          <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold">Buy</button>
-          <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold" onClick={() => route.push('/about')}>About</button>
+            <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold">Buy</button>
+            <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold" onClick={() => route.push('/about')}>About</button>
 
           </div>
         </div>
 
-      </div>
+      </div >
       {/* container 6 */}
-       <div className="innerContainer6">
+      < div className="innerContainer6" >
 
-        <div className=" widthfull m-6">
-          <image className="rounded-lg width-full height-80 object-fill" src="/2.jpg" alt="" />
+        <div className=" width-full m-6">
+          <Image src="/7.jpg" alt="Antique Item" width={800} height={600} priority />
           <h1 className="text-gray-600">Antique Name</h1>
           <h1 className="text-gray-600">Description</h1>
           <p className="text-xs">&apos Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, mollitia? &apos</p>
           <div className="flex justify-around">
-          <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold">Buy</button>
-          <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold" onClick={() => route.push('/about')}>About</button>
+            <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold">Buy</button>
+            <button className=" border-2 my-4 border-green-500 bg-green-500 px-4 py-2  rounded-lg hover:font-bold" onClick={() => route.push('/about')}>About</button>
 
           </div>
         </div>
 
-      </div>
-     
-      
-    </div>
+      </div >
+
+
+    </div >
 
   </>
 
