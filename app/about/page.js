@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Page = () => {
     return (
         <div className='p-4 flex gap-8'>
-            <Image 
+            <image 
                 className='rounded-lg' 
                 src="/2.jpg" 
                 alt="Antique Name" 

@@ -31,8 +31,8 @@ const Page = () => {
             <div className='flex gap-1'>
 
                 {/* Address Section */}
-                <div className='border-2 rounded-lg border-b-fuchsia-300 my-4 flex flex-col gap-4 justify-center items-center w-1/2'>
-                    <div className='font-extrabold text-6xl border-4 my-4 border-red-500 rounded-lg animate-pulse p-4 bg-red-800 shadow-lg'>
+                <div className='border-2 rounded-lg border-b-fuchsia-300 my-4 flex flex-col gap-4 justify-center items-center width-1/2'>
+                    <div className='font-extrabold text-6xl border-4 my-4 border-red-500 rounded-lg animate-pulse p-4 bg-red-800 shadowidthlg'>
                         Address
                     </div>
 
@@ -53,7 +53,7 @@ const Page = () => {
                     <div className='flex gap-4'>
                         <div>Address</div>
                         <textarea 
-                            className='border-2 border-b-fuchsia-300 px-2 rounded-lg py-1 h-40 w-65 p-2' 
+                            className='border-2 border-b-fuchsia-300 px-2 rounded-lg py-1 height-40 width-65 p-2' 
                             name='address' 
                             placeholder='Your current address' 
                             value={formData.address} 
@@ -70,12 +70,12 @@ const Page = () => {
                 </div>
 
                 {/* Payment Section */}
-                <div className='border-2 rounded-lg border-b-fuchsia-300 my-4 flex flex-col gap-4 justify-center items-center w-1/2'>
-                    <div className='font-extrabold text-6xl border-4 my-4 border-green-500 rounded-lg animate-pulse p-4 bg-green-800 shadow-lg'>
+                <div className='border-2 rounded-lg border-b-fuchsia-300 my-4 flex flex-col gap-4 justify-center items-center width-1/2'>
+                    <div className='font-extrabold text-6xl border-4 my-4 border-green-500 rounded-lg animate-pulse p-4 bg-green-800 shadowidthlg'>
                         Payment
                     </div>
 
-                    <button className='border-2 border-b-fuchsia-300 p-4 rounded-lg hover:border-4 hover:border-amber-400 hover:font-bold shadow-yellow-500 shadow-2xl mt-20 cursor-pointer'>
+                    <button className='border-2 border-b-fuchsia-300 p-4 rounded-lg hover:border-4 hover:border-amber-400 hover:font-bold shadowidthyellowidth500 shadowidth2xl mt-20 cursor-pointer'>
                         Pay
                     </button>
                 </div>
